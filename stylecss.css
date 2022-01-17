@@ -1,0 +1,122 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13-Dec-2021, 14:29:46
+    Author     : 2106996
+*/
+.container{​​
+display: grid; 
+width: 100%;
+height: 600%;
+grid-template-columns: 200px 1fr 1fr;
+grid-template-rows: 235px 1fr 1fr 100px;
+grid-gap: 1rem;
+grid-template-areas:
+"header header header"
+"content-1 content-1 content-1"
+"content-2 content-2 content-3"
+"footer footer footer";
+}​​
+.container2{
+    display: grid;
+width: 100%;
+height: 600%;
+grid-template-columns: 200px 1fr 1fr;
+grid-template-rows: 235px 1fr 1fr 100px;
+grid-gap: 1rem;
+grid-template-areas:
+"header header header"
+"sidebar content-1 content-1"
+"sidebar content-2 content-3"
+"footer footer footer";
+}
+.body{​​
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+background-color: blanchedalmond;
+font-family: "lato", sans-serif;
+}​​
+.container > *{​​
+           border: 1px solid black;
+}​​
+.header{​​
+grid-area: header;
+background: url("images/bg_image.jpg");
+background-size: cover;
+position: relative;
+left: 0px;
+}​​
+.title{​​
+position: relative;
+left: 550px;
+top: -60px;
+}​​
+.sidebar{​​
+grid-area: sidebar;
+text-align: center;
+background: url("images/bg_image.jpg");
+color: blue;
+background-size: cover;
+}​​
+.content-1{​​
+grid-area: content-1;
+}​​
+.content-2{​​
+grid-area: content-2;
+}​​
+.content-3{​​
+grid-area: content-3;
+}​​
+.footer{​​
+grid-area: footer;
+background: url("images/bg_image.jpg");
+background-size: cover;
+color: white;
+}​​
+.fa{​​
+padding: 20px;
+font-size: 50px;
+width: 30px;
+text-align: center;
+text-decoration: none;
+margin: -15px 2px;
+border-radius: 50%;
+position: relative;
+left: 1300px;
+top: -25px;
+}​​
+.fa-facebook{​​
+background: #3b5998;
+color: white;
+}​​
+.fa-twitter{​​
+background: #55acee;
+color: white;
+}​​
+.fa-linkedin{​​
+background: #007bb5;
+color: white;
+}​​
+.fa-instagram{​​
+background: #125688;
+color: white;
+}​​
+.webimg{​​
+        position: relative;
+        left: 200px;  
+}​​
+.imgphone{
+    position: relative;
+    left: 850px;
+}
+.video{
+    position: relative;
+    left: 350px;
+}
+
+
+
